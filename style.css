@@ -1,3 +1,67 @@
-h1 {
-  text-align: center;
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    padding: 0;
+    margin: 0;
+}
+
+#colors {
+    color: #2EC4B6;
+    color: #CBF3F0;
+    color: #FFBF69;
+    color: #FF9F1C;
+}
+
+#header {
+    color: #FFFFFF;
+    background: #FF9F1C;
+    width: 800px;
+    padding: 20px calc(50% - 400px) 20px calc(50% - 400px);
+    text-align: center;
+}
+
+#footer {
+    background: #FF9F1C;
+    color: #FFFFFF;
+    padding: 20px calc(50% - 400px) 20px calc(50% - 400px);
+}
+
+#links {
+    padding: 0 calc(50% - 400px) 0 calc(50% - 400px);
+    height: 40px;
+    background: #FFBF69;
+    text-align: center;
+}
+
+.link {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.link:hover {
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.third {
+    display: inline-block;
+    width: calc(100%/3);
+}
+
+#content {
+    width: 800px;
+    padding: 10px calc(50% - 400px) 10px calc(50% - 400px);
+}
+
+#header h1 {
+    color: #FFFFFF;
+    font-size: 100px;
 }
